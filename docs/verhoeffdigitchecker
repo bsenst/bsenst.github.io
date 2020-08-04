@@ -1,0 +1,171 @@
+<html>
+<head><title></title></head>
+<body>
+</script>
+var FnF = new Array();
+    FnF[0] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    FnF[1] = [1, 5, 7, 6, 2, 8, 3, 0, 9, 4];
+    for ( var i = 2; i < 8; i++ )
+    {
+        FnF[i] = [,,,,,,,,,];
+        for ( var j = 0; j < 10; j++ )
+        FnF[i][j] = FnF[i - 1][FnF[1][j]];
+    }
+var Dihedral = new Array(
+   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+   [1, 2, 3, 4, 0, 6, 7, 8, 9, 5],
+   [2, 3, 4, 0, 1, 7, 8, 9, 5, 6],
+   [3, 4, 0, 1, 2, 8, 9, 5, 6, 7],
+   [4, 0, 1, 2, 3, 9, 5, 6, 7, 8],
+   [5, 9, 8, 7, 6, 0, 4, 3, 2, 1],
+   [6, 5, 9, 8, 7, 1, 0, 4, 3, 2],
+   [7, 6, 5, 9, 8, 2, 1, 0, 4, 3],
+   [8, 7, 6, 5, 9, 3, 2, 1, 0, 4],
+   [9, 8, 7, 6, 5, 4, 3, 2, 1, 0] );
+     
+var InverseD5 = new Array(0, 4, 3, 2, 1, 5, 6, 7, 8, 9 );
+     
+function VerhoeffCheck()
+     
+    {
+    var check = 0;
+    var IdValue = document.form.numcd.value;
+    document.getElementById("out").innerText = "";
+    document.getElementById("out").setAttribute("style","color:red;");
+    document.getElementById("component").innerText ="Invalid partition";
+    document.getElementById("component").setAttribute("style","color:green;");
+    document.getElementById("extnamespace").innerText ="No namespace";
+    document.getElementById("extnamespace").setAttribute("style","color:red;");
+ 
+    for ( var i=IdValue.length-1; i >=0; i-- ) 
+    check = Dihedral[check][FnF[(IdValue.length-i-1) % 8][IdValue.charAt(i)]];
+    if ( check != 0 ) { document.getElementById("out").innerText = "Check-digit ERROR"; }
+    else if  (IdValue.length < 6) {document.getElementById("out").innerText = "SCTID too short";}
+    else if  (IdValue.length > 18) {document.getElementById("out").innerText = "SCTID too long";}
+    else {document.getElementById("out").innerText = "Check-digit OK";
+    document.getElementById("out").setAttribute("style","color:green;");
+    switch (IdValue.substr(IdValue.length-3,2))
+    {
+    case "00":
+        document.getElementById("component").innerText ="Concept";
+        document.getElementById("extnamespace").innerText ="International";
+        break;
+    case "01":
+        document.getElementById("component").innerText ="Description";
+        document.getElementById("extnamespace").innerText ="International";
+        break;
+    case "02": 
+        document.getElementById("component").innerText ="Relationship";
+        document.getElementById("extnamespace").innerText ="International";
+        break;
+    case "03": 
+        document.getElementById("component").innerText ="Subset (RF1)";
+        document.getElementById("extnamespace").innerText ="International";
+        break;
+    case "04": 
+        document.getElementById("component").innerText ="Cross Map Set (RF1)";
+        document.getElementById("extnamespace").innerText ="International";
+        break;
+    case "05": 
+        document.getElementById("component").innerText ="Cross Map Target (RF1)";
+        document.getElementById("extnamespace").innerText ="International";
+        break;
+    case "10":
+        document.getElementById("component").innerText ="Concept";
+        document.getElementById("extnamespace").innerText =IdValue.substr(IdValue.length-10,7);
+        break;
+    case "11":
+        document.getElementById("component").innerText ="Description";
+        document.getElementById("extnamespace").innerText =IdValue.substr(IdValue.length-10,7);
+        break;
+    case "12": 
+        document.getElementById("component").innerText ="Relationship";
+        document.getElementById("extnamespace").innerText =IdValue.substr(IdValue.length-10,7);
+        break;
+    case "13": 
+        document.getElementById("component").innerText ="Subset (RF1)";
+        document.getElementById("extnamespace").innerText =IdValue.substr(IdValue.length-10,7);
+        break;
+    case "14": 
+        document.getElementById("component").innerText ="Cross Map Set (RF1)";
+        document.getElementById("extnamespace").innerText =IdValue.substr(IdValue.length-10,7);
+        break;
+    case "15": 
+        document.getElementById("component").innerText ="Cross Map Target (RF1)";
+        document.getElementById("extnamespace").innerText =IdValue.substr(IdValue.length-10,7);
+        break;
+    default:
+        document.getElementById("component").setAttribute("style","color:red;");                   
+    }
+    if (document.getElementById("extnamespace").innerText=='International') {document.getElementById("extnamespace").setAttribute("style","color:green;");}
+    else if (IdValue.length>10) {document.getElementById("extnamespace").setAttribute("style","color:green;");}
+    else  {document.getElementById("extnamespace").innerText="Invalid Namespace";
+    }
+    }
+    }
+function VerhoeffCompute( )
+      
+    {
+    var IdValue = document.form.num.value; var check = 0;
+    document.form.numcd.value= "";
+    for ( var i = IdValue.length-1; i >=0; i-- )             
+    check = Dihedral[check][FnF[(IdValue.length-i) % 8][IdValue.charAt(i)]];
+    document.form.numcd.value = document.form.num.value + InverseD5[check];
+    VerhoeffCheck();
+    document.getElementById("out").innerText = "Computed check-digit";
+    }
+</script>
+<style>
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+span.s1 {color: #021da7}
+span.s2 {color: #f9975e}
+span.s3 {color: #ff9450}
+span.s4 {color: #ab4500}
+span.s5 {color: #a7a400}
+table {border-width: 6px; border-color: #0080ff; border-collapse: collapse; border-style: ridge;}
+td {border-width: 3px; border-color: #0080ff; border-collapse: collapse; padding: 6px; border-style: ridge;}
+</style>
+<form action="" name="form">
+    <table width="441">
+        <tr>
+            <td width="212" height="25"> Partial Identifier <br/>(without check-digit)&nbsp; </td>
+            <td width="115" height="25">
+                <input name="num" size="18"/>
+            </td>
+            <td width="92" height="25">
+                <input onclick="VerhoeffCompute()" type="button" value="Compute"/>
+            </td>
+        </tr>
+        <tr>
+            <td width="212" height="35"> SNOMED CT Identifier </td>
+            <td width="115" height="35">
+                <input name="numcd" size="18"/>
+            </td>
+            <td width="92" height="35">
+                <input onclick="VerhoeffCheck()" type="button" value="Check"/>
+            </td>
+        </tr>
+        <tr>
+            <td width="212" height="23"> Result of check&nbsp; </td>
+            <td width="115" height="23" colspan="2" id="out"> </td>
+        </tr>
+        <tr>
+            <td width="212" height="23"> Component type </td>
+            <td width="115" height="23" colspan="2" id="component"> </td>
+        </tr>
+        <tr>
+            <td width="212" height="23"> Namespace </td>
+            <td width="115" height="23" colspan="2" id="extnamespace"> </td>
+        </tr>
+    </table>
+    <p style="margin-left: 0; margin-right: 0"> This Verhoeff checking part of this code was based
+        on a webpage at: </p>
+    <ul>
+        <li>
+            <a href="http://www.augustana.ab.ca/~mohrj/algorithms/checkdigit.html">
+                http://www.augustana.ab.ca/~mohrj/algorithms/checkdigit.html </a>
+        </li>
+    </ul>
+</form>
+</body>
+</html>
