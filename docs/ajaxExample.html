@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+<title>Using the AJAXLib Ajax framework</title>
+
+<script src = "ajaxlib.js"></script>
+
+<script>
+
+function callback()
+
+{
+
+var xmlData = resultXML.getElementsByTagName("text");
+
+var div = document.getElementById('targetDiv');
+
+div.innerHTML = xmlData[0].firstChild.data;
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<H3>Using the AJAXLib Ajax framework</H3>
+
+<form>
+
+<input type = "button" value = "ajaxExample.xml"
+
+onclick = "loadXMLDoc('ajaxExample.xml', callback, false)">
+
+<input type = "button" value = "ajaxExample2.xml"
+
+onclick = "loadXMLDoc('ajaxExample2.xml', callback, false)">
+
+</form>
+
+<div id="targetDiv">
+
+<p>The fetched data will go here.</p>
+
+</div>
+
+<p>This code is available at <a href="http://faculty.strose.edu/avitabij/csc532spr15/notes/ajax5.htm">http://faculty.strose.edu/avitabij/csc532spr15/notes/ajax5.htm</a></p>
+
+<p>AJAXLib v. 1.0 as mady public by Jacek Karaszewski under Creative Commons Attribution 2.5 License.</p>
+
+</body>
+
+</html>
