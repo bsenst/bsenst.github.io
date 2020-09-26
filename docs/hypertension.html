@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Hypertension</title>
+		<script>
+			var randomBP="120";
+			var rightAnswer="";
+			var turns = 0;
+			var right = 0;
+			var wrong = 0;
+			var rightPercent = 0;
+			var wrongPercent = 0;
+			
+			// how to generate a random number with specified range?
+			function generateBP() {
+				randomBP = (1 + Math.random()) * 100; // Generate random number
+				document.getElementById("randomBP").innerHTML="The Systolic Blood Pressure is " + randomBP
+				document.getElementById("answer").innerHTML="Give it a try!<br>"
+				
+				document.getElementById('Turns').innerHTML = turns
+				document.getElementById('Right').innerHTML = right
+				document.getElementById('Wrong').innerHTML = wrong
+			}
+			
+			function checkAnswer(answer) {
+				
+				if (randomBP<80) rightAnswer = "hypotension"
+				if (randomBP>=80 && randomBP<140) rightAnswer = "normotension"
+				if (randomBP>=140 && randomBP<160) rightAnswer = "hypertension stage I"
+				if (randomBP>=160) rightAnswer = "hypertension stage II"
+				
+				// how to avoid infinity as calculation result?
+				if (rightAnswer == answer) {
+					document.getElementById("answer").innerHTML="Your answer was right.";
+					right +=1;
+					rightPercent = right / turns * 100;
+				}
+				else {
+					document.getElementById("answer").innerHTML="Your answer was wrong.";
+					wrong +=1;
+					wrongPercent = wrong / turns * 100;
+				}
+				
+				document.getElementById("answer").innerHTML+=" (Your Answer: " + answer + "; Right Answer: " + rightAnswer + ")";
+				
+				turns += 1;
+				
+				// how to generate a new bmi after waiting a few seconds?
+			}
+		</script>
+	</head>
+	<body onload=generateBP()>
+		<div id="randomBP"></div><br>
+		
+		<form>
+			<input type="button" onclick=checkAnswer(this.value) value="hypotension"><br>
+			<input type="button" onclick=checkAnswer(this.value) value="normotension"><br>
+			<input type="button" onclick=checkAnswer(this.value) value="hypertension stage I"><br>
+			<input type="button" onclick=checkAnswer(this.value) value="hypertension stage II"><br>
+		</form>
+		
+		<div id="answer"></div><br>
+		
+		<form><input type="button" onclick=generateBP() value="Generate another BP"></form>
+		
+		<P><B>Turns: <SPAN id="Turns"> </SPAN></B></P>
+		<P><B>Right: <SPAN id="Right"> </SPAN></B></P>
+		<P><B>Wrong: <SPAN id="Wrong"> </SPAN></B></P>
+		
+		<!-- make sure the classification is right//-->
+		<div>Classification of Hypertension according to ... </div>
+	</body>
+</html>

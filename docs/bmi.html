@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>BMI</title>
+		<script>
+			var randomBMI=22
+			var rightAnswer=""
+			var turns = 0;
+			var right = 0;
+			var wrong = 0;
+			var rightPercent = 0;
+			var wrongPercent = 0;
+			
+			// how to generate a random number with specified range?
+			function generateBMI() {
+				randomBMI = (Math.random() + 1) / 6 * 100; // Generate random number
+				document.getElementById("randomBMI").innerHTML="The BMI is " + randomBMI
+				document.getElementById("answer").innerHTML="Give it a try!<br>"
+				
+				document.getElementById('Turns').innerHTML = turns
+				document.getElementById('Right').innerHTML = right
+				document.getElementById('Wrong').innerHTML = wrong
+			}
+			
+			function checkAnswer(answer) {
+				
+				if (randomBMI<18.5) rightAnswer = "underweight"
+				if (randomBMI>=18.5 && randomBMI<24.9) rightAnswer = "normal BMI"
+				if (randomBMI>=25 && randomBMI<29.9) rightAnswer = "overweight"
+				if (randomBMI>=30 && randomBMI<34.9) rightAnswer = "obesity grade I"
+				if (randomBMI>=35 && randomBMI<39.9) rightAnswer = "obesity grade II"
+				if (randomBMI>=40) rightAnswer = "obesity grade III"
+				
+				// how to avoid infinity as calculation result?
+				if (rightAnswer == answer) {
+					document.getElementById("answer").innerHTML="Your answer was right.";
+					right +=1;
+					rightPercent = right / turns * 100;
+				}
+				else {
+					document.getElementById("answer").innerHTML="Your answer was wrong.";
+					wrong +=1;
+					wrongPercent = wrong / turns * 100;
+				}
+				
+				document.getElementById("answer").innerHTML+=" (Your Answer: " + answer + "; Right Answer: " + rightAnswer + ")";
+				
+				turns += 1;
+				
+				// how to generate a new bmi after waiting a few seconds?
+			}
+		</script>
+	</head>
+	<body onload=generateBMI()>
+		<div id="randomBMI"></div><br>
+		
+		<form>
+			<input type="button" id="underweight" onclick=checkAnswer(this.value) value="underweight"><br>
+			<input type="button" id="normal" onclick=checkAnswer(this.value) value="normal BMI"><br>
+			<input type="button" id="overweight" onclick=checkAnswer(this.value) value="overweight"><br>
+			<input type="button" id="gradeI" onclick=checkAnswer(this.value) value="obesity grade I"><br>
+			<input type="button" id="gradeII" onclick=checkAnswer(this.value) value="obesity grade II"><br>
+			<input type="button" id="gradeIII" onclick=checkAnswer(this.value) value="obesity grade III"><br>
+		</form>
+		
+		<div id="answer"></div><br>
+		
+		<form><input type="button" onclick=generateBMI() value="Generate another BMI"></form>
+		
+		<P><B>Turns: <SPAN id="Turns"> </SPAN></B></P>
+		<P><B>Right: <SPAN id="Right"> </SPAN></B></P>
+		<P><B>Wrong: <SPAN id="Wrong"> </SPAN></B></P>
+		
+		<!-- make sure the classification is right//-->
+		<div>Classification of BMI according to NIH / WHO </div>
+	</body>
+</html>
