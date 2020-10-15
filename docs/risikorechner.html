@@ -1,0 +1,62 @@
+<HTML>
+  <HEAD>
+    <TITLE>Risikorechner</TITLE>
+	
+	<SCRIPT language = "javascript" type = "text/javascript">
+    <!-- Start hiding JavaScript statements
+	  
+    // End hiding JavaScript statements -->
+    </SCRIPT>
+  </HEAD>
+  <BODY>
+	<H1>Risikorechner</H1>
+	<P>...</P>
+	<hr>
+	
+	<FORM>
+	  Gesamtcholesterin<INPUT id = "chol" TYPE = "text" onchange=""><BR>
+	  Geschlecht: weiblich <INPUT id="weiblich" type="radio"> maennlich <INPUT id="maennlich" type="radio"><br>
+	  Raucher <INPUT id="raucher" type="radio"> Nichtraucher <INPUT id="nraucher" type="radio"><br>
+	  Alter [a] <INPUT id = "alter" TYPE = "text"><BR>
+	  Hochrisikogebiet <INPUT id="risikogebiet" type="checkbox"><br>
+	  <input type="button" value="Risiko berechnen" onclick=berechnen()>
+	</FORM>
+	
+	<HR>
+	
+	<h3>Risiko</h3>
+	
+	<DIV id='risiko'></DIV>
+    <P>Das errechnete Risiko in Prozent innerhalb der naechsten 10 Jahre ein kardiovaskulaeres Ereignis zu erleiden.</P>
+	
+	<DIV id='risikogruppe'></DIV>
+    <P>Die Risikogruppe ...</P>
+	
+	<h3>Behandlungsziel</h3>
+	
+	<DIV id='ldl'></DIV>
+	<P>Das LDL-C Behandlungsziel ...</P>
+	
+	<DIV id='hdl'></DIV>
+	<P>Das HDL-C Behandlungsziel ...</P>
+	
+	<HR>
+	
+	<P>Diese Rechnungen ... und Lizenzhinweise</P>
+	
+	<SCRIPT language = "javascript" type = "text/javascript">
+    <!-- Start hiding JavaScript statements
+	  function berechnen() {
+		  cholesterin = document.getElementById("chol").value
+		  weiblich = document.getElementById("weiblich").value
+		  maennlich = document.getElementById("maennlich").value
+		  nikotin = document.getElementById("chol").value
+		  alter = document.getElementById("alter").value
+		  risikogebiet = document.getElementById("risikogebiet").value
+		  
+		  alert(cholesterin + " " + weiblich + " " + maennlich + " " + nikotin + " " + alter + " " + risikogebiet);
+	  }
+    // End hiding JavaScript statements -->
+    </SCRIPT>
+  </BODY>
+</HTML>
