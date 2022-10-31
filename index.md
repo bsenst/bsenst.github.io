@@ -10,6 +10,8 @@
 [https://www.malt.de/profile/benjaminsenst](https://www.malt.de/profile/benjaminsenst)
 [https://www.guru.com/freelancers/benjamin-senst](https://www.guru.com/freelancers/benjamin-senst)
 [https://www.upwork.com/freelancers/~017dc670596a379aa6](https://www.upwork.com/freelancers/~017dc670596a379aa6)
+[https://www.freelancer.com/u/benjaminsenst](https://www.freelancer.com/u/benjaminsenst)
+[https://www.freelance.de/Freiberufler/211856-Medizinischer-Experte-Data-Analyst](https://www.freelance.de/Freiberufler/211856-Medizinischer-Experte-Data-Analyst)
 
 ## Science
 
