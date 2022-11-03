@@ -20,3 +20,7 @@
 [https://publons.com/wos-op/researcher/4987991/benjamin-senst/](https://publons.com/wos-op/researcher/4987991/benjamin-senst/)
 [https://www.webofscience.com/wos/author/rid/AEC-6659-2022](https://www.webofscience.com/wos/author/rid/AEC-6659-2022)
 [https://orcid.org/0000-0002-2106-8392](https://orcid.org/0000-0002-2106-8392)
+
+## Badges
+
+[![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
