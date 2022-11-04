@@ -21,7 +21,7 @@
 [https://www.webofscience.com/wos/author/rid/AEC-6659-2022](https://www.webofscience.com/wos/author/rid/AEC-6659-2022)
 [https://orcid.org/0000-0002-2106-8392](https://orcid.org/0000-0002-2106-8392)
 
-## Badges
+## Badges & Continuing Education
 
 [https://www.credential.net/profile/benjaminsenst/wallet](https://www.credential.net/profile/benjaminsenst/wallet)
 
