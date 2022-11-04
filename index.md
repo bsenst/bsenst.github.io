@@ -23,4 +23,6 @@
 
 ## Badges
 
+[https://www.credential.net/profile/benjaminsenst/wallet](https://www.credential.net/profile/benjaminsenst/wallet)
+
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
