@@ -1,11 +1,11 @@
 # Welcome
 
-## Social Media
+## Social Media 📬
 
 * [https://www.linkedin.com/in/benjaminsenst](https://www.linkedin.com/in/benjaminsenst)
 * [https://twitter.com/benjaminsenst](https://twitter.com/benjaminsenst)
 
-## Freelancing
+## Freelancing 🥼
 
 * [https://www.malt.de/profile/benjaminsenst](https://www.malt.de/profile/benjaminsenst)
 * [https://www.guru.com/freelancers/benjamin-senst](https://www.guru.com/freelancers/benjamin-senst)
@@ -13,19 +13,19 @@
 * [https://www.freelancer.com/u/benjaminsenst](https://www.freelancer.com/u/benjaminsenst)
 * [https://www.freelance.de/Freiberufler/211856-Medizinischer-Experte-Data-Analyst](https://www.freelance.de/Freiberufler/211856-Medizinischer-Experte-Data-Analyst)
 
-## Data Science
+## Data Science 🎲
 
 * [https://www.kaggle.com/bnzn261029](https://www.kaggle.com/bnzn261029)
 * [https://g.dev/bsenst](https://g.dev/bsenst)
 * [https://github.com/bsenst](https://github.com/bsenst)
 
-## Badges & Continuing Education
+## Badges & Continuing Education 🔬
 
 * [https://www.credential.net/profile/benjaminsenst/wallet](https://www.credential.net/profile/benjaminsenst/wallet)
 
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
 
-## Science & Publications
+## Science & Publications 📚
 
 * [https://www.researchgate.net/profile/Benjamin-Senst](https://www.researchgate.net/profile/Benjamin-Senst)
 * [https://publons.com/wos-op/researcher/4987991/benjamin-senst/](https://publons.com/wos-op/researcher/4987991/benjamin-senst/)
@@ -36,7 +36,7 @@
 * [Eine Famulatur in Adana, Türkei](https://m.thieme.de/viamedici/medizin-im-ausland-laender-tuerkei-1744/a/famulatur-adana-5047.htm)
 * [PJ Anästhesie und Notfallmedizin](https://m.thieme.de/viamedici/mein-studienort-berlin-1575/a/pj-anaesthesie-und-notfallmedizin-24189.htm)
 
-## Long-Distance Cycling 2012-2018
+## Long-Distance Cycling 2012-2018 🚲
 
 ![image](https://user-images.githubusercontent.com/8211411/205519153-36bb09dd-3f37-490b-ba9d-b9ae43b1fc02.png)
 
