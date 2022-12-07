@@ -22,6 +22,7 @@
 ## Badges & Continuing Education 🔬
 
 * [https://www.credential.net/profile/benjaminsenst/wallet](https://www.credential.net/profile/benjaminsenst/wallet)
+* [https://www.credly.com/users/benjamin-senst](https://www.credly.com/users/benjamin-senst)
 
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
 
