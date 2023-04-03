@@ -18,6 +18,7 @@
 * [https://www.kaggle.com/bnzn261029](https://www.kaggle.com/bnzn261029)
 * [https://g.dev/bsenst](https://g.dev/bsenst)
 * [https://github.com/bsenst](https://github.com/bsenst)
+* [https://huggingface.co/bsenst](https://huggingface.co/bsenst)
 
 ## Badges & Continuing Education 🔬
 
