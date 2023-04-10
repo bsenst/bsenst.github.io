@@ -24,6 +24,7 @@
 
 * [https://www.credential.net/profile/benjaminsenst/wallet](https://www.credential.net/profile/benjaminsenst/wallet)
 * [https://www.credly.com/users/benjamin-senst](https://www.credly.com/users/benjamin-senst)
+* https://openbadgepassport.com/app/profile/191105
 
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
 
