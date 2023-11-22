@@ -9,7 +9,7 @@
 
 * [malt.de/profile/benjaminsenst](https://www.malt.de/profile/benjaminsenst)
 * [guru.com/freelancers/benjamin-senst](https://www.guru.com/freelancers/benjamin-senst)
-* [upwork.com/freelancers/~017dc670596a379aa6](https://www.upwork.com/freelancers/~017dc670596a379aa6)
+* [upwork.com/freelancers](https://www.upwork.com/freelancers/~017dc670596a379aa6)
 * [freelancer.com/u/benjaminsenst](https://www.freelancer.com/u/benjaminsenst)
 * [freelance.de/Freiberufler/211856-Medizinischer-Experte-Data-Analyst](https://www.freelance.de/Freiberufler/211856-Medizinischer-Experte-Data-Analyst)
 * [lablab.ai/u/@bsenst](https://lablab.ai/u/@bsenst)
@@ -24,12 +24,12 @@
 
 ## Badges & Continuing Education 🔬
 
-* [credential.net/profile/benjaminsenst/wallet](https://www.credential.net/profile/benjaminsenst/wallet)
+* [credential.net/profile/benjaminsenst](https://www.credential.net/profile/benjaminsenst/wallet)
 * [credly.com/users/benjamin-senst](https://www.credly.com/users/benjamin-senst)
-* [openbadgepassport.com/app/profile/191105](https://openbadgepassport.com/app/profile/191105)
-* [graphacademy.neo4j.com/u/aa89beb2-c111-4821-a652-724bda4d251d/](https://graphacademy.neo4j.com/u/aa89beb2-c111-4821-a652-724bda4d251d/)
-* https://university.redis.com/u/bsenst
-* https://university.influxdata.com/in/bsenst/
+* [openbadgepassport.com](https://openbadgepassport.com/app/profile/191105)
+* [graphacademy.neo4j.com](https://graphacademy.neo4j.com/u/aa89beb2-c111-4821-a652-724bda4d251d/)
+* [university.redis.com/u/bsenst](https://university.redis.com/u/bsenst)
+* [university.influxdata.com/in/bsenst/](https://university.influxdata.com/in/bsenst/)
 
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
 
@@ -41,7 +41,7 @@
 * [orcid.org/0000-0002-2106-8392](https://orcid.org/0000-0002-2106-8392)
 * [scholar.google.com/citations?user=Vb-Z5uwAAAAJ&hl=en](https://scholar.google.com/citations?user=Vb-Z5uwAAAAJ&hl=en)
 * [Prognostische Faktoren bei Kohlemonoxidvergiftung - Retrospektive Studie zum Verlauf österreichischer Notarzthubschraubereinsätze von 2006 bis 2012](https://online.medunigraz.at/mug_online/wbAbs.showThesis?pThesisNr=49007&pOrgNr=&pPersNr=51615)
-* [Traumatologiefamulatur in Nizhniy Novgorod](https://m.thieme.de/viamedici/medizin-im-ausland-laender-russland-1725/a/famulatur-traumatologie-nizhniy-novgorod-19499.htm)
+* [Traumatologiefamulatur Nizhniy Novgorod](https://m.thieme.de/viamedici/medizin-im-ausland-laender-russland-1725/a/famulatur-traumatologie-nizhniy-novgorod-19499.htm)
 * [Eine Famulatur in Adana, Türkei](https://m.thieme.de/viamedici/medizin-im-ausland-laender-tuerkei-1744/a/famulatur-adana-5047.htm)
 * [PJ Anästhesie und Notfallmedizin](https://m.thieme.de/viamedici/mein-studienort-berlin-1575/a/pj-anaesthesie-und-notfallmedizin-24189.htm)
 
