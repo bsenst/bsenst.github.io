@@ -50,3 +50,8 @@
 ![image](https://user-images.githubusercontent.com/8211411/205519153-36bb09dd-3f37-490b-ba9d-b9ae43b1fc02.png)
 
 Not showing trips to Slovenia, Serbia, Hungary, Romania, Croatia, Adria, Venice, Slovakia, Baltic Sea, Lower-Saxony, Harz, Vienna, Carinthia, Szczecin.
+
+## Applications
+
+* Experimenting with Llama2-70b-Chat-LLM-generated interpretations of medical observations [experimental-clinical-support.streamlit.app](https://experimental-clinical-support.streamlit.app/)
+* OpenAI LLM to support working with Electronic Health Records (OpenAI API key required) [llm-enhanced-ehr.streamlit.app](https://llm-enhanced-ehr.streamlit.app/)
