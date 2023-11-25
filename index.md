@@ -56,3 +56,4 @@ Not showing trips to Slovenia, Serbia, Hungary, Romania, Croatia, Adria, Venice,
 * Experimenting with Llama2-70b-Chat-LLM-generated interpretations of medical observations [experimental-clinical-support.streamlit.app](https://experimental-clinical-support.streamlit.app/)
 * OpenAI LLM to support working with Electronic Health Records (OpenAI API key required) [llm-enhanced-ehr.streamlit.app](https://llm-enhanced-ehr.streamlit.app/)
 * Making german primary care medical guidelines more accessible with Generative AI and Retrieval Augmentation powered by Vectara [vectara-hackathon.streamlit.app](https://vectara-hackathon.streamlit.app/)
+* Board certification preparation containing more than 40k questions (Preview) [medical-board-certification-questions.streamlit.app](https://medical-board-certification-questions.streamlit.app/)
