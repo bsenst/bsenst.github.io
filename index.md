@@ -58,5 +58,3 @@ Not showing trips to Slovenia, Serbia, Hungary, Romania, Croatia, Adria, Venice,
 * OpenAI LLM to support working with Electronic Health Records (OpenAI API key required) [llm-enhanced-ehr.streamlit.app](https://llm-enhanced-ehr.streamlit.app/)
 * Making german primary care medical guidelines more accessible with Generative AI and Retrieval Augmentation powered by Vectara [vectara-hackathon.streamlit.app](https://vectara-hackathon.streamlit.app/)
 * Board certification preparation containing more than 40k questions (preview showing 2.5k questions) [medical-board-certification-questions.streamlit.app](https://medical-board-certification-questions.streamlit.app/)
-
-*This website uses Google Analytics.*
