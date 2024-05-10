@@ -19,3 +19,8 @@
 ### Telematik
 
 * [gematik TI Lagebild](https://ti-lage.prod.ccs.gematik.solutions/d/oGvaba47k/monitoring-lagebild-der-ti?orgId=1&kiosk)
+
+### Hilfsmittel
+
+* [GKV Hilfsmittelverzeichnis](https://hilfsmittel.gkv-spitzenverband.de/home))
+* [REHADAT GKV-Hilfsmittel­verzeichnis](https://www.rehadat-gkv.de/)
