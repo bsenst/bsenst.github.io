@@ -14,7 +14,6 @@
 ### Infektiologie
 
 * [infektiopedia](https://infektiopedia.de/)
-* [NREVSS Dashboard](https://app.powerbigov.us/view?r=eyJrIjoiMWQ4MGRkZDYtOWZhNS00YzZhLWE2MTYtMDNjMzY5MjQ4ZjYyIiwidCI6IjljZTcwODY5LTYwZGItNDRmZC1hYmU4LWQyNzY3MDc3ZmM4ZiJ9)
 
 ### Psyche
 
@@ -29,6 +28,9 @@
 
 * [gematik TI Lagebild](https://ti-lage.prod.ccs.gematik.solutions/d/oGvaba47k/monitoring-lagebild-der-ti?orgId=1&kiosk)
 * [BfArm DiGA Verzeichnis](https://diga.bfarm.de/de/verzeichnis)
+* [BinDoc Meta](https://meta.bindoc.app/home)
+* [Deutschlandatlas](https://www.deutschlandatlas.bund.de/DE/Home/home_node.html)
+* [NREVSS Dashboard](https://app.powerbigov.us/view?r=eyJrIjoiMWQ4MGRkZDYtOWZhNS00YzZhLWE2MTYtMDNjMzY5MjQ4ZjYyIiwidCI6IjljZTcwODY5LTYwZGItNDRmZC1hYmU4LWQyNzY3MDc3ZmM4ZiJ9)
 
 ### Hilfsmittel
 
