@@ -36,3 +36,10 @@
 
 * [GKV Hilfsmittelverzeichnis](https://hilfsmittel.gkv-spitzenverband.de/home))
 * [REHADAT GKV-Hilfsmittel­verzeichnis](https://www.rehadat-gkv.de/)
+
+### Hilfsangebote
+
+* [Rauchfrei BZgA](https://rauchfrei-info.de/)
+* [Nummer gegen Kummer](http://www.nummergegenkummer.de/)
+* [KlickSafe](http://www.klicksafe.de/)
+* [Protect Mediensucht](http://www.protect-mediensucht.de/)
