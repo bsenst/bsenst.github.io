@@ -59,3 +59,7 @@ Not showing trips to Slovenia, Serbia, Hungary, Romania, Croatia, Adria, Venice,
 * Making german primary care medical guidelines more accessible with Generative AI and Retrieval Augmentation powered by Vectara [vectara-hackathon.streamlit.app](https://vectara-hackathon.streamlit.app/)
 * Board certification preparation containing more than 40k questions (preview showing 2.5k questions) [medical-board-certification-questions.streamlit.app](https://medical-board-certification-questions.streamlit.app/)
 * Enhance medical history taking with Entity Recognition while you type and LLM suggested additional questions to differentiate underlying medical causes. [llm-enhanced-history-taking.streamlit.app](https://llm-enhanced-history-taking.streamlit.app/)
+
+## Knowledge Map
+
+![Knowledge Treemap representing Top 30 Tags](https://github.com/user-attachments/assets/ec779cbe-48c4-452c-aab1-74d1c703f0f3)
