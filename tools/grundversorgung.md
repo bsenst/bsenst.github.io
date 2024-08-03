@@ -14,6 +14,7 @@
 ### Infektiologie
 
 * [infektiopedia](https://infektiopedia.de/)
+* [NREVSS Dashboard](https://app.powerbigov.us/view?r=eyJrIjoiMWQ4MGRkZDYtOWZhNS00YzZhLWE2MTYtMDNjMzY5MjQ4ZjYyIiwidCI6IjljZTcwODY5LTYwZGItNDRmZC1hYmU4LWQyNzY3MDc3ZmM4ZiJ9)
 
 ### Psyche
 
@@ -30,7 +31,6 @@
 * [BfArm DiGA Verzeichnis](https://diga.bfarm.de/de/verzeichnis)
 * [BinDoc Meta](https://meta.bindoc.app/home)
 * [Deutschlandatlas](https://www.deutschlandatlas.bund.de/DE/Home/home_node.html)
-* [NREVSS Dashboard](https://app.powerbigov.us/view?r=eyJrIjoiMWQ4MGRkZDYtOWZhNS00YzZhLWE2MTYtMDNjMzY5MjQ4ZjYyIiwidCI6IjljZTcwODY5LTYwZGItNDRmZC1hYmU4LWQyNzY3MDc3ZmM4ZiJ9)
 
 ### Hilfsmittel
 
@@ -43,3 +43,7 @@
 * [Nummer gegen Kummer](http://www.nummergegenkummer.de/)
 * [KlickSafe](http://www.klicksafe.de/)
 * [Protect Mediensucht](http://www.protect-mediensucht.de/)
+
+### Orthopädie/Unfallchirurgie
+
+* [Osteoporose Risikotrainer](https://osteoporose.bvou.net/)
