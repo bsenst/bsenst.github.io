@@ -3,6 +3,8 @@
 ### Atemwege
 
 * [Centor Score](https://www.mdcalc.com/calc/104/centor-score-modified-mcisaac-strep-pharyngitis)
+* [COPD Fragebogen](https://www.catestonline.org/patient-site-test-page-german-germany.html)
+* [Asthma Kontrolltest](https://www.asthmacontroltest.com/de-de/quiz/adult-quiz/)
 
 ### Kardiovaskulär
 
@@ -47,3 +49,7 @@
 ### Orthopädie/Unfallchirurgie
 
 * [Osteoporose Risikotrainer](https://osteoporose.bvou.net/)
+
+### Organspende
+
+* [Organspendeausweis erstellen](https://www.organspende-info.de/organspendeausweis-download-und-bestellen/)
