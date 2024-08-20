@@ -33,6 +33,7 @@
 * [BfArm DiGA Verzeichnis](https://diga.bfarm.de/de/verzeichnis)
 * [BinDoc Meta](https://meta.bindoc.app/home)
 * [Deutschlandatlas](https://www.deutschlandatlas.bund.de/DE/Home/home_node.html)
+* [AOK Gesundheitsatlas Deutschland](https://www.gesundheitsatlas-deutschland.de/)
 
 ### Hilfsmittel
 
