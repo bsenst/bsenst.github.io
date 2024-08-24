@@ -54,3 +54,10 @@
 ### Organspende
 
 * [Organspendeausweis erstellen](https://www.organspende-info.de/organspendeausweis-download-und-bestellen/)
+
+### Dermatologie
+
+* [GEPARD Fragebogen](https://www.diagnose-psoriasis.de/~/media/Project/PSD_DE/pdf/GEPARD-Fragebogen.pdf)
+* [PASI Rechner](https://dermatologe-werden.de/apps-und-online-services/pasi-rechner/)
+* [SCORing Atopic Dermatitis (SCORAD) Calculator](https://scorad.corti.li/)
+* [EASI Calculator](https://www.easiderm.com/)
