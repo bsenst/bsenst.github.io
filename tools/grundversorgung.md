@@ -61,3 +61,7 @@
 * [PASI Rechner](https://dermatologe-werden.de/apps-und-online-services/pasi-rechner/)
 * [SCORing Atopic Dermatitis (SCORAD) Calculator](https://scorad.corti.li/)
 * [EASI Calculator](https://www.easiderm.com/)
+
+### Gastroenterologie
+
+* [Lebensblicke Darmkrebsvorsorge](https://www.lebensblicke.de/)
