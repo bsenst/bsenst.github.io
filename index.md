@@ -4,7 +4,7 @@
 
 * [linkedin.com/in/benjaminsenst](https://www.linkedin.com/in/benjaminsenst)
 * [twitter.com/benjaminsenst](https://twitter.com/benjaminsenst)
-* [bsenst.bsky.social](bsenst.bsky.social)
+* [bsenst.bsky.social](https://bsky.app/profile/bsenst.bsky.social)
 * [mas.to/@bsenst](https://mas.to/@bsenst)
 
 ## Freelancing 🥼
