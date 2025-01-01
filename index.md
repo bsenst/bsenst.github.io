@@ -32,6 +32,7 @@
 * [graphacademy.neo4j.com](https://graphacademy.neo4j.com/u/aa89beb2-c111-4821-a652-724bda4d251d/)
 * [university.redis.com/u/bsenst](https://university.redis.com/u/bsenst)
 * [university.influxdata.com/in/bsenst/](https://university.influxdata.com/in/bsenst/)
+* [cloudskillsboost](https://www.cloudskillsboost.google/public_profiles/b570de05-4507-4816-b6d1-6afd36619ef5)
 
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
 
@@ -42,6 +43,7 @@
 * [webofscience.com/wos/author/rid/AEC-6659-2022](https://www.webofscience.com/wos/author/rid/AEC-6659-2022)
 * [orcid.org/0000-0002-2106-8392](https://orcid.org/0000-0002-2106-8392)
 * [scholar.google.com/citations?user=Vb-Z5uwAAAAJ&hl=en](https://scholar.google.com/citations?user=Vb-Z5uwAAAAJ&hl=en)
+
 * [Prognostische Faktoren bei Kohlemonoxidvergiftung - Retrospektive Studie zum Verlauf österreichischer Notarzthubschraubereinsätze von 2006 bis 2012](https://online.medunigraz.at/mug_online/wbAbs.showThesis?pThesisNr=49007&pOrgNr=&pPersNr=51615)
 * [Traumatologiefamulatur Nizhniy Novgorod](https://m.thieme.de/viamedici/medizin-im-ausland-laender-russland-1725/a/famulatur-traumatologie-nizhniy-novgorod-19499.htm)
 * [Eine Famulatur in Adana, Türkei](https://m.thieme.de/viamedici/medizin-im-ausland-laender-tuerkei-1744/a/famulatur-adana-5047.htm)
