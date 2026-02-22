@@ -33,6 +33,7 @@
 * [university.redis.com/u/bsenst](https://university.redis.com/u/bsenst)
 * [university.influxdata.com/in/bsenst/](https://university.influxdata.com/in/bsenst/)
 * [cloudskillsboost](https://www.cloudskillsboost.google/public_profiles/b570de05-4507-4816-b6d1-6afd36619ef5)
+* [salesforce.com/trailblazer](https://www.salesforce.com/trailblazer/h1s376cxtf2lkj90i2)
 
 [![@bsenst's Holopin board](https://holopin.me/bsenst)](https://holopin.io/@bsenst)
 
