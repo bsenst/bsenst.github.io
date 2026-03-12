@@ -43,6 +43,7 @@
 * [publons.com/wos-op/researcher/4987991/benjamin-senst/](https://publons.com/wos-op/researcher/4987991/benjamin-senst/)
 * [webofscience.com/wos/author/rid/AEC-6659-2022](https://www.webofscience.com/wos/author/rid/AEC-6659-2022)
 * [orcid.org/0000-0002-2106-8392](https://orcid.org/0000-0002-2106-8392)
+* [osf.io/4f6r9](https://osf.io/4f6r9/)
 * [scholar.google.com/citations?user=Vb-Z5uwAAAAJ&hl=en](https://scholar.google.com/citations?user=Vb-Z5uwAAAAJ&hl=en)
 
 * [Prognostische Faktoren bei Kohlemonoxidvergiftung - Retrospektive Studie zum Verlauf österreichischer Notarzthubschraubereinsätze von 2006 bis 2012](https://online.medunigraz.at/mug_online/wbAbs.showThesis?pThesisNr=49007&pOrgNr=&pPersNr=51615)
